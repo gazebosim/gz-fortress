@@ -9,7 +9,7 @@ project(ignition-fortress VERSION 1.0.3)
 # Find ignition-cmake
 #============================================================================
 # If you get an error at this line, you need to install ignition-cmake
-find_package(ignition-cmake2 2.11.0 REQUIRED)
+find_package(ignition-cmake2 2.12.1 REQUIRED)
 
 #============================================================================
 # Configure the project
@@ -20,14 +20,14 @@ ign_configure_project(VERSION_SUFFIX)
 
 ign_find_package(ignition-common4 REQUIRED VERSION 4.5)
 ign_find_package(ignition-fuel_tools7 REQUIRED VERSION 7.0)
-ign_find_package(ignition-gazebo6 REQUIRED VERSION 6.8)
+ign_find_package(ignition-gazebo6 REQUIRED VERSION 6.9)
 ign_find_package(ignition-gui6 REQUIRED VERSION 6.4)
 ign_find_package(ignition-launch5 REQUIRED VERSION 5.1)
 ign_find_package(ignition-math6 REQUIRED COMPONENTS eigen3 VERSION 6.10)
 ign_find_package(ignition-msgs8 REQUIRED VERSION 8.4)
 ign_find_package(ignition-physics5 REQUIRED VERSION 5.1)
 ign_find_package(ignition-plugin1 REQUIRED VERSION 1.2.1)
-ign_find_package(ignition-rendering6 REQUIRED VERSION 6.2.1)
+ign_find_package(ignition-rendering6 REQUIRED VERSION 6.3.1)
 ign_find_package(ignition-sensors6 REQUIRED VERSION 6.3)
 ign_find_package(ignition-transport11 REQUIRED VERSION 11.0)
 ign_find_package(ignition-utils1 REQUIRED VERSION 1.4)
